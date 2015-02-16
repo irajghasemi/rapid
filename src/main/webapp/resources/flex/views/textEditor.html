@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Blogg editor (Almost complete) - CodePen</title>
+
+     <link rel="stylesheet" href="../css/textEditor.css" media="screen" type="text/css" />
+
+  <script src="js/prefixfree.min.js"></script>
+
+</head>
+
+<body>
+
+  <div class="main"> 
+  <div class="header">
+    <div class="path">
+      <p>Articles</p>
+      <p id="articleHeaderName">Create New Article</p>
+    </div>
+    
+  </div>
+  <div class="sidebar">
+    <div class="circles"></div>
+    <div class="exitMenu">
+      <input type="checkbox" id="exitMenuCheckbox"/> 
+      <label for="exitMenuCheckbox"></label>
+      <div class="finishButton">
+        <a href="javascript:void(0);" id="publish">Publish</a>
+        <a href="javascript:void(0);" id="save">Save Draft</a>
+        <a href="javascript:void(0);" id="delete">Delete Draft</a>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <h1 contenteditable="true">Simple blog editor - A great way of learning</h1>
+    <div class="textEditing">
+
+      <input type="checkbox" id="bold"><label for="bold"><span class="fontawesome-bold"></span></label></input>
+      <input type="checkbox" id="italic"><label for="italic"><span class="fontawesome-italic"></span></label></input>
+      <input type="checkbox" id="underline"><label for="underline"><span class="fontawesome-underline"></span></label></input>
+      <input type="radio" name="textStyle" id="left" checked><label for="left"><span class="fontawesome-align-left"></span></label></input>
+	    <input type="radio" name="textStyle" id="center"><label for="center"><span class="fontawesome-align-center"></span></label></input>
+      <input type="radio" name="textStyle" id="right"><label for="right"><span class="fontawesome-align-right"></span></label></input>
+      <input type="radio" name="textStyle" id="justify"><label for="justify"><span class="fontawesome-align-justify"></span></label></input>
+      <input type="file" id="image"><label for="image"><span class="fontawesome-picture"></span></label></input>
+      <input type="checkbox" id="attachment"><label for="attachment"><span class="fontawesome-link"></span></label></input>
+      <input type="" id="link"><label for="link" id="linkLable"><span id=""></span></label></input>
+      <input type="checkbox" id="code"><label for="code"><span class="fontawesome-quote-right"></span></label></input>
+    </div>
+  <p id="contentText" contenteditable="true">Enter text here</p>
+  </div>
+</div>
+
+  <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
+
+  <script src="js/textEditor.js"></script>
+
+</body>
+
+</html>

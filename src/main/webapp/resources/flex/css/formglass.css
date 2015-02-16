@@ -1,0 +1,193 @@
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+    position: relative;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    transition: all .4s
+}
+html,
+body {
+    width: 100%;
+    height: 100%
+}
+body {
+    position: relative;
+    background: #000;
+/*     background: url(http://macreart.com/assets/images/PhotoDesign191.jpg) no-repeat center center fixed; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    color: #f2f2f2;
+    text-shadow: -1px -1px #aa3030;
+    font-weight: 100
+}
+body:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+/*     background: url(http://macreart.com/assets/images/PhotoDesign191.jpg) no-repeat center center fixed; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-filter: blur(0px) saturate(1) contrast(1.2) invert(0) sepia(0.08) grayscale(0.16) brightness(0.7);
+    z-index: -1
+}
+h1 {
+    text-align: center;
+    font-size: 2.5rem
+}
+form {
+    margin: 0 auto;
+    top: 60px;
+    width: 343px;
+    height: auto;
+    padding: 30px;
+    background: inherit;
+    position: relative;
+    border: 10px solid rgba(255,255,255,.15);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 1px 4px rgba(0,0,0,.3);
+    -moz-box-shadow: 1px 1px 4px rgba(0,0,0,.3);
+    box-shadow: 1px 1px 4px rgba(0,0,0,.3);
+    z-index: 5
+}
+form:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: inherit;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    filter: url(#blur);
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='5')
+}
+textarea {
+    display: block;
+    background: transparent;
+    width: 282px;
+    height: 110px;
+    border-radius: 4px 4px 0 0;
+    border-left: 0px !important;
+    border-right: 0px !important;
+    outline: none !important;
+    border: 6px solid #87999a;
+    border-top: 0px solid #9baaab;
+    box-shadow: 0px 0px 20px #6d8082;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    color: #f2f2f2;
+    text-shadow: -1px -1px #aa3030;
+    padding-left: 45px;
+    padding-right: 20px;
+    padding-top: 12px;
+    margin-bottom: 20px;
+    overflow: hidden
+}
+input {
+    display: block;
+    width: 282px;
+    height: 48px;
+    border-radius: 4px 4px 0 0;
+    border-left: 0px !important;
+    border-right: 0px !important;
+    outline: none !important;
+    border: 6px solid #87999a;
+    border-top: 0px solid #9baaab;
+    box-shadow: 0px 0px 20px #6d8082;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    color: #f2f2f2;
+    text-shadow: -1px -1px #aa3030;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px
+}
+    input[type=submit] {
+    cursor: pointer
+}
+input {
+    background: transparent;
+    padding-left: 45px;
+}
+::-webkit-input-placeholder {
+    color: #f2f2f2
+}
+:-moz-placeholder {
+    color: #f2f2f2
+}
+:-ms-input-placeholder {
+    color: #f2f2f2
+}
+input:hover,
+textarea:hover {
+    box-shadow: 0px 0px 40px #6d8082
+}
+input:focus,
+textarea:focus {
+    background-color: transparent;
+    box-shadow: 0px 0px 10px #6d8082;
+    border-bottom: 1px solid #6d8082;
+    overflow: hidden;
+}
+.btn {
+    width: 130px;
+    height: 44px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    float: right;
+    border: 1px solid #253737;
+    background: #87999a;
+    background: -webkit-gradient(linear, left top, left bottom, from(#D5EBE3), to(#87999a));
+    background: -webkit-linear-gradient(top, #D5EBE3, #87999a);
+    background: -moz-linear-gradient(top, #D5EBE3, #005E96);
+    background: -ms-linear-gradient(top, #D5EBE3, #87999a);
+    background: -o-linear-gradient(top, #D5EBE3, #87999a#D5EBE3dddddd);
+    background-image: -ms-linear-gradient(top, #6da5a3 0%, #005E96 100%);
+    padding: 10.5px 21px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: rgba(255,255,255,0.1) 0 1px 0, inset rgba(255,255,255,0.5) 0 1px 0;
+    -moz-box-shadow: rgba(255,255,255,0.1) 0 1px 0, inset rgba(255,255,255,0.5) 0 1px 0;
+    box-shadow: rgba(255,255,255,0.1) 0 1px 0, inset rgba(255,255,255,0.5) 0 1px 0;
+    text-shadow: -1px -1px #aa3030;
+    color: #fff;
+}
+.btn:hover {
+    border: 1px solid #253737;
+    text-shadow: #ddd 0 1px 0;
+    background-color: #87999A
+}
+.btn:active {
+    border: 1px solid #253737;
+    text-shadow: #ddd 0 1px 0;
+    background-color: #87999A
+}
+svg {
+    height: 0;
+    width: 0;
+    position: absolute;
+}

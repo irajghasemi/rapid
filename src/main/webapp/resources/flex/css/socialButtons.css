@@ -1,0 +1,237 @@
+@import url(http://weloveiconfonts.com/api/?family=brandico|zocial);
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	padding: 20px 0px;
+	font-size: 16px;
+	line-height: 1em;
+	color: white;
+	font-family: sans-serif;
+}
+a {
+	text-decoration: none;
+}
+
+#social-links {
+	/*background: #666;*/
+	width: 120px;
+	height: auto;
+	margin: auto;
+	padding: 10px;
+}
+#social-icons li {
+	display: block;
+	margin-bottom: 10px;
+	padding: 10px 10px 10px 10px;
+	font-size: 0.9em;
+	line-height: 0.75em;
+	list-style-type: none;
+	border-radius: 8px;
+}
+#social-icons li:last-child {
+	margin: 0;
+}
+#social-icons li a {
+	display: block;
+}
+
+.facebook {
+	background-color: #3B5998;
+	box-shadow: inset 0px 0px 3px 0px #879DCC, 0px 0px 3px 1px #132D63;
+}
+.twitter {
+	background-color: #4099ff;
+	box-shadow: inset 0px 0px 3px 0px #96C8FF, 0px 0px 3px 1px #1559A6;
+}
+.linkedin {
+	background-color: #4875B4;
+	box-shadow: inset 0px 0px 3px 0px #92B0DA, 0px 0px 3px 1px #173F75;
+}
+.forrst {
+	background-color: #778e72;
+	box-shadow: inset 0px 0px 3px 0px #B5C7B1, 0px 0px 3px 1px #2F5C25;
+}
+.github {
+	background-color: #999;
+	box-shadow: inset 0px 0px 3px 0px #C2C2C2, 0px 0px 3px 1px #4D4D4D;
+}
+.instagram {
+	background-color: #4E433C;
+	box-shadow: inset 0px 0px 3px 0px #A79A91, 0px 0px 3px 1px #332014;
+}
+.facebook, .twitter, .linkedin, .forrst, .github, .instagram {
+	-moz-transition: all .2s ease-in;
+	-webkit-transition: all .2s ease-in;
+	-o-transition: all .2s ease-in;
+	transition: all .2s ease-in;
+}
+.facebook:hover {
+	box-shadow: inset 0px 0px 7px 0px #132D63;
+	background-color: #3E4E72;
+}
+.twitter:hover {
+	box-shadow: inset 0px 0px 7px 0px #1559A6;
+	background-color: #5487BF;
+}
+.linkedin:hover {
+	box-shadow: inset 0px 0px 7px 0px #173F75;
+	background-color: #4A6487;
+}
+.forrst:hover {
+	box-shadow: inset 0px 0px 7px 0px #2F5C25;
+	background-color: #5D6A5B;
+}
+.github:hover {
+	box-shadow: inset 0px 0px 7px 0px #4D4D4D;
+	background-color: #737373;
+}
+.instagram:hover {
+	box-shadow: inset 0px 0px 7px 0px #332014;
+	background-color: #473E38;
+}
+/*Transitions*/
+[class*="brandico-"]:before, [class*="brandico-"]:after, [class*="zocial-"]:before, [class*="zocial-"]:after {
+	-moz-transition: all .2s ease-in;
+	-webkit-transition: all .2s ease-in;
+	-o-transition: all .2s ease-in;
+	transition: all .2s ease-in;
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+[class*="brandico-"]:before {
+	font-family: 'brandico', sans-serif;
+}
+[class*="brandico-"]:after {
+	vertical-align: middle;
+	font-size: .5em;
+	font-family: Helvetica;
+	font-weight: bold;
+}
+[class*="zocial-"]:before {
+	font-family: 'zocial', sans-serif;
+}
+[class*="zocial-"]:after {
+	vertical-align: middle;
+	font-size: .5em;
+	font-family: Helvetica;
+	font-weight: bold;
+}
+
+.zocial-facebook {
+	-moz-text-shadow: 0px 1px 2px #3E4E72;
+	-webkit-text-shadow: 0px 1px 2px #3E4E72;
+	-o-text-shadow: 0px 1px 2px #3E4E72;
+	text-shadow: 0px 1px 2px #3E4E72;
+}
+.zocial-facebook:before {
+	color: #879DCC;
+}
+.zocial-facebook:after {
+	content: "Facebook";
+	padding: 0px 0px 0px 10px;
+	letter-spacing: 1px;
+	color: #879DCC;
+}
+.zocial-twitter {
+	-moz-text-shadow: 0px 1px 2px #5487BF;
+	-webkit-text-shadow: 0px 1px 2px #5487BF;
+	-o-text-shadow: 0px 1px 2px #5487BF;
+	text-shadow: 0px 1px 2px #5487BF;
+}
+.zocial-twitter:before {
+	color: #96C8FF;
+}
+.zocial-twitter:after {
+	content: "Twitter";
+	padding: 0px 0px 0px 5px;
+	letter-spacing: 1px;
+	color: #96C8FF;
+}
+
+.zocial-linkedin {
+	-moz-text-shadow: 0px 1px 2px #4A6487;
+	-webkit-text-shadow: 0px 1px 2px #4A6487;
+	-o-text-shadow: 0px 1px 2px #4A6487;
+	text-shadow: 0px 1px 2px #4A6487;
+}
+.zocial-linkedin:before {
+	color: #92B0DA;
+}
+.zocial-linkedin:after {
+	content: "Linkedin";
+	padding: 0px 0px 0px 10px;
+	letter-spacing: 1px;
+	color: #92B0DA;
+}
+.zocial-forrst {
+	-moz-text-shadow: 0px 1px 2px #5D6A5B;
+	-webkit-text-shadow: 0px 1px 2px #5D6A5B;
+	-o-text-shadow: 0px 1px 2px #5D6A5B;
+	text-shadow: 0px 1px 2px #5D6A5B;
+}
+.zocial-forrst:before {
+	color: #B5C7B1;
+}
+.zocial-forrst:after {
+	content: "Forrst";
+	padding: 0px 0px 0px 10px;
+	letter-spacing: 1px;
+	color: #B5C7B1;
+}
+
+.brandico-github {
+	-moz-text-shadow: 0px 1px 2px #737373;
+	-webkit-text-shadow: 0px 1px 2px #737373;
+	-o-text-shadow: 0px 1px 2px #737373;
+	text-shadow: 0px 1px 2px #737373;
+}
+.brandico-github:before {
+	color: #C2C2C2;
+}
+.brandico-github:after {
+	content: "Github";
+	padding: 0px 0px 0px 6px;
+	letter-spacing: 1px;
+	color: #C2C2C2;
+}
+
+.brandica-instagram {
+	-moz-text-shadow: 0px 1px 2px #3B3430;
+	-webkit-text-shadow: 0px 1px 2px #3B3430;
+	-o-text-shadow: 0px 1px 2px #3B3430;
+	text-shadow: 0px 1px 2px #3B3430;
+}
+.brandico-instagram:before {
+	color: #A79A91;
+}
+.brandico-instagram:after {
+	content: "Instagram";
+	padding: 0px 0px 0px 10px;
+	letter-spacing: 1px;
+	color: #A79A91;
+}
+
+[class*="brandico-"]:hover, [class*="brandico-"]:hover:before, [class*="brandico-"]:hover:after, [class*="zocial-"]:hover, [class*="zocial-"]:hover:before, [class*="zocial-"]:hover:after {
+	text-shadow: 0px 0px 1px #333;
+}
+.zocial-facebook:hover:before, .zocial-facebook:hover:after, .zocial-facebook {
+	color: #132D63;
+}
+.zocial-twitter:hover:before, .zocial-twitter:hover:after {
+	color: #1559A6;
+}
+.zocial-linkedin:hover:before, .zocial-linkedin:hover:after {
+	color: #173F75;
+}
+.zocial-forrst:hover:before, .zocial-forrst:hover:after {
+	color: #2F5C25;
+}
+.brandico-github:hover:before, .brandico-github:hover:after {
+	color: #4D4D4D;
+}
+.brandico-instagram:hover:before, .brandico-instagram:hover:after {
+	color: #3B3430;
+}
