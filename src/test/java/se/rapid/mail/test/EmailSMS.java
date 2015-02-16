@@ -26,7 +26,7 @@ public class EmailSMS {
         EmailSMS SMS = new EmailSMS();
 
         SMS.setMailHost("smtprelay1.telia.com");
-        SMS.setTo("0046707313330@zas.se");
+        SMS.setTo("*******");
         SMS.setFrom("iraj@zas.se");
         SMS.setSubject("SMS FROM SMTP");
         SMS.setText("Hello World!");
