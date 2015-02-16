@@ -13,7 +13,7 @@ public class MailTest
 		ApplicationContext ctx = new AnnotationConfigApplicationContext(EmailServiceSender.class);
 		EmailServiceSender sender= (EmailServiceSender) ctx.getBean("emailServiceSender");
 		Customer user= new Customer();
-		user.setEmail("iraj@zas.se");
+		user.setEmail("*********");
 		sender.sendLostPasswordEmail(user, "text");
 		
 	}
