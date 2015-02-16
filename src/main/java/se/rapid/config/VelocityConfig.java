@@ -93,8 +93,8 @@ public class VelocityConfig
 		javaMailSenderImpl.setDefaultEncoding("UTF-8");
 		javaMailSenderImpl.setHost("smtp.gmail.com");
 		javaMailSenderImpl.setPort(587);
-		javaMailSenderImpl.setUsername("j10mehdig@gmail.com");
-		javaMailSenderImpl.setPassword("Kermanshah1342");
+		javaMailSenderImpl.setUsername("*************");
+		javaMailSenderImpl.setPassword("**************");
 		
 //		javaMailSenderImpl.setHost(env.getProperty("smtp.host"));
 //		javaMailSenderImpl.setPort(env.getProperty("smtp.port", Integer.class));
